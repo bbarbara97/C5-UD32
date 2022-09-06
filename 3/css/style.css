@@ -1,0 +1,29 @@
+.navbar-nav li:hover>ul.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-menu>.dropdown-submenu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+}
+
+.dropdown-subsubmenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-subsubmenu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+}
+
+.nav-item:hover,
+.nav-link:hover {
+    background-color: white;
+    color: black!important;
+}
